@@ -61,3 +61,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "neighbor"      # pgvector integration for ActiveRecord
+gem "anthropic"     # Anthropic Ruby SDK
+gem "httparty"      # for calling Voyage AI's HTTP API
