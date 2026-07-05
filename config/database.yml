@@ -82,8 +82,8 @@ production:
   primary: &primary_production
     <<: *default
     database: ai_ops_production
-    username: ai_ops
-    password: <%= ENV["AI_OPS_DATABASE_PASSWORD"] %>
+    username: postgres
+    password: postgres
   cache:
     <<: *primary_production
     database: ai_ops_production_cache
